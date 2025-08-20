@@ -4,16 +4,12 @@ For Backend
 ## 📖Overview
 This is a backend-focused learning project that recreates the main features of Airbnb's platform.It is designed to help practice skills on backend development, database modelling, authentication, and scalable system designs
 
----
-
 ### 🏆Project goals
 - Implement secure **user registration, login and profile management.**
 - Build **property listings** with create , update and retrieval features.
 - Add **payment processing** to handle transactions securely.
 - Support a **review system** where users can leave ratings and comments.
 - Improve efficiency with **database indexing and caching.**
-
----
 
 ### ⚙️Technology stack
 
@@ -49,3 +45,18 @@ Coordinates the team by defining tasks, timelines, and goals. They act as the br
 
 ### 🔹 UI/UX Designer
 Although this is a backend-focused project, a UI/UX designer may contribute by **designing user-friendly interfaces** and ensuring smooth user flows when the frontend is built.
+
+---
+
+## ⚙️ Technology Stack
+
+The Airbnb Clone project leverages a modern backend stack to ensure scalability, security, and efficiency. Below is an overview of the technologies used and their purpose in the project:
+
+- **Django** – A high-level Python web framework for building the backend and handling business logic.
+- **Django REST Framework (DRF)** – Provides tools to build RESTful APIs for user, property, booking, and payment management.
+- **PostgreSQL** – A powerful relational database system used for storing and querying project data efficiently.
+- **GraphQL** – Allows flexible and efficient data queries, giving clients control over the data they fetch.
+- **Celery** – Handles background tasks such as sending notifications, processing payments, or email confirmations.
+- **Redis** – Used for caching frequently accessed data and managing asynchronous task queues with Celery.
+- **Docker** – Provides containerization for consistent development and deployment environments.
+- **CI/CD Pipelines** – Automates testing, integration, and deployment processes to ensure code reliability and faster delivery.
