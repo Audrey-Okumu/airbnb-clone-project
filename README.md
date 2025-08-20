@@ -132,3 +132,32 @@ Provides a way for guests to leave reviews and ratings for properties. This feat
 
 ### ⚡ Data Optimization
 Optimizes the database to allow efficient storage and fast retrieval of information. This ensures the platform remains scalable and responsive, even as the number of users and properties grows.
+
+## 🔒 API Security
+
+Ensuring the security of the backend APIs is critical to protecting users, data, and financial transactions in the Airbnb Clone project. The following measures will be implemented:
+
+### ✅ Authentication
+Only verified users can access the system using secure login methods.  
+**Why it matters:** Prevents unauthorized users from accessing sensitive features like bookings, payments, or user profiles.
+
+### ✅ Authorization
+Different roles (guest, host) will have restricted access to certain endpoints.  
+**Why it matters:** Ensures that users can only perform actions they are permitted to, such as preventing guests from modifying other users’ properties.
+
+### ✅ Data Encryption
+Sensitive data such as passwords and payment details will be encrypted both at rest and in transit (HTTPS/TLS).  
+**Why it matters:** Protects user data from being intercepted or leaked during communication or storage.
+
+### ✅ Rate Limiting
+Limits the number of requests an API can receive from a single client within a set timeframe.  
+**Why it matters:** Prevents abuse such as denial-of-service (DoS) attacks or brute-force login attempts.
+
+### ✅ Input Validation & Sanitization
+All input data will be validated and sanitized before processing.  
+**Why it matters:** Protects the system from SQL injection, cross-site scripting (XSS), and other malicious exploits.
+
+### ✅ Secure Payments
+Payment APIs will integrate with trusted payment gateways and use tokenization for transactions.  
+**Why it matters:** Ensures that sensitive financial information is never exposed, reducing fraud risks.
+
