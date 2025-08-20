@@ -106,6 +106,29 @@ The database for the Airbnb Clone project is designed to manage users, propertie
 - A **User** can own multiple **Properties** (host role).  
 - A **User** can make multiple **Bookings**.  
 - A **Booking** is linked to one **Property** and one **User**.  
-- A **Review** is linked to one **User** and one **Property**.  
-- A **Payment** is tied to one **Booking**.  
+- A **Review** is linked to one **User** and one **Property**.
+- A **Payment** is tied to one **Booking**. 
 
+  ---
+
+  ## ✨ Feature Breakdown
+
+The Airbnb Clone project is built around a set of core features that directly support the project goals. These features ensure the platform is secure, reliable, and user-friendly.
+
+### 👤 User Management
+Implements secure registration, authentication, and profile management for both guests and hosts. This ensures that only authorized users can access the platform while providing a personalized experience.
+
+### 🏡 Property Management
+Allows hosts to create, update, and retrieve property listings with details like title, description, price, and location. This feature ensures properties are easy to manage and accessible to potential guests.
+
+### 📅 Booking System
+Enables guests to reserve properties by selecting check-in and check-out dates. The system prevents double bookings and manages reservation details for a smooth booking process.
+
+### 💳 Payment Processing
+Integrates a secure payment system to handle transactions for bookings. It records payment details, tracks statuses, and ensures financial operations are reliable and transparent.
+
+### ⭐ Review System
+Provides a way for guests to leave reviews and ratings for properties. This feature builds trust in the platform by helping future guests make informed decisions and motivating hosts to maintain quality.
+
+### ⚡ Data Optimization
+Optimizes the database to allow efficient storage and fast retrieval of information. This ensures the platform remains scalable and responsive, even as the number of users and properties grows.
