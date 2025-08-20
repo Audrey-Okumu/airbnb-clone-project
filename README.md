@@ -60,3 +60,52 @@ The Airbnb Clone project leverages a modern backend stack to ensure scalability,
 - **Redis** – Used for caching frequently accessed data and managing asynchronous task queues with Celery.
 - **Docker** – Provides containerization for consistent development and deployment environments.
 - **CI/CD Pipelines** – Automates testing, integration, and deployment processes to ensure code reliability and faster delivery.
+
+  ---
+
+  ## 🗄️ Database Design
+
+The database for the Airbnb Clone project is designed to manage users, properties, bookings, reviews, and payments efficiently. Below is an overview of the key entities and their relationships.
+
+### Entities and Fields
+
+- **Users**
+  - `id`: Unique identifier for each user
+  - `name`: Full name of the user
+  - `email`: User’s email (used for login and communication)
+  - `password_hash`: Encrypted password for authentication
+  - `role`: Defines if the user is a guest or a host
+
+- **Properties**
+  - `id`: Unique identifier for each property
+  - `title`: Name of the property
+  - `description`: Details about the property
+  - `location`: Address or geographical location
+  - `price_per_night`: Cost per night for booking
+
+- **Bookings**
+  - `id`: Unique identifier for each booking
+  - `user_id`: References the user making the booking
+  - `property_id`: References the pro_
+
+- **Reviews**
+  - `id`: Unique identifier for each review
+  - `user_id`: References the user who wrote the review
+  - `property_id`: References the reviewed property
+  - `rating`: Numerical rating (e.g., 1–5 stars)
+  - `comment`: Text feedback from the user
+
+- **Payments**
+  - `id`: Unique identifier for each payment
+  - `booking_id`: References the related booking
+  - `amount`: Total amount paid
+  - `status`: Payment status (e.g., pending, completed, failed)
+  - `payment_date`: Date of the payment
+
+### Relationships
+- A **User** can own multiple **Properties** (host role).  
+- A **User** can make multiple **Bookings**.  
+- A **Booking** is linked to one **Property** and one **User**.  
+- A **Review** is linked to one **User** and one **Property**.  
+- A **Payment** is tied to one **Booking**.  
+
