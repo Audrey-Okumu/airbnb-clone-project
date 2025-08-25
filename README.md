@@ -11,7 +11,7 @@ This is a backend-focused learning project that recreates the main features of A
 - Support a **review system** where users can leave ratings and comments.
 - Improve efficiency with **database indexing and caching.**
 
-### ⚙️Technology stack
+### ⚙️Tech stack
 
 - **Django** - Web framework for backend development
 - **Django REST Framework** - REST API support
