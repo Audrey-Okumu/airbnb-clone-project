@@ -1,5 +1,5 @@
 # 🏡Airbnb-clone-project
-For Backend
+FOR BACKEND
 
 ## 📖Overview
 This is a backend-focused learning project that recreates the main features of Airbnb's platform.It is designed to help practice skills on backend development, database modelling, authentication, and scalable system designs
@@ -179,9 +179,11 @@ A **CI/CD (Continuous Integration and Continuous Deployment) pipeline** automate
 - **Jenkins (optional):** A powerful CI/CD automation server for complex pipelines.  
 - **Heroku/AWS/GCP (Deployment):** Cloud platforms that can host the application after successful builds.  
 
+
+
 # 🏡 AirBnB Clone (Full-Stack Project)
 
-For Frontend
+FOR FRONTEND
 
 ## 📌 Overview
 This project is a **full-stack clone of Airbnb**, designed to replicate the core features of an accommodation booking platform.  
